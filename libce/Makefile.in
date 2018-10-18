@@ -63,7 +63,8 @@ CC_FOR_TARGET = $(CC)
 DLLTOOL = @DLLTOOL@
 DLLTOOL_FLAGS = --as=$(AS) -k
 AS = @AS@
-AS_FOR_TARGET = $(AS_FOR_TARGET)
+#AS_FOR_TARGET = $(AS_FOR_TARGET)
+AS_FOR_TARGET = @AS_FOR_TARGET@
 WINDRES = @WINDRES@
 
 # Depending on if we build as part of winsup or mingw we need to
